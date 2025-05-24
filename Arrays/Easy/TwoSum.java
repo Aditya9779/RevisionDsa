@@ -1,8 +1,11 @@
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class TwoSum {
     public static void main(String[] args) {
-
+    int []arr=new int[]{1,2,4,5};
+    int target=3;
+        System.out.println(Arrays.toString(twoSum(arr, target)));
     }
     public static int[] twoSum(int[] nums, int target) {
      if(nums.length == 0) {
