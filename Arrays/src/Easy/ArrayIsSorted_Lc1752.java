@@ -1,3 +1,5 @@
+package Easy;
+
 public class ArrayIsSorted_Lc1752 {
     public static void main(String[] args) {
         int []arr=new int[]{3,4,5,1,2};

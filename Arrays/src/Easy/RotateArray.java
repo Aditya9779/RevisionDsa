@@ -1,3 +1,5 @@
+package Easy;
+
 public class RotateArray {
     public static void main(String[] args) {
         RotateArray rotateArray=new RotateArray();

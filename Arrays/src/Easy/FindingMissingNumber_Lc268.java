@@ -1,3 +1,5 @@
+package Easy;
+
 public class FindingMissingNumber_Lc268 {
     public static void main(String[] args) {
    int []arr=new int []{3,0,1};

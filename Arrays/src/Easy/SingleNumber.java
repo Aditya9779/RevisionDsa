@@ -1,3 +1,5 @@
+package Easy;
+
 public class SingleNumber {
     public int singleNumber(int[] nums) {
         if(nums.length==0) return 0;

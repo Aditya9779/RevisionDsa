@@ -1,3 +1,5 @@
+package Easy;
+
 import java.util.HashMap;
 
 public class SubarraySumEqualToK_Lc560 {
