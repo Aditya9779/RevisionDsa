@@ -7,7 +7,6 @@ public class MaximumSubarray_Lc53 {
         System.out.println(obj.maxSubArray(nums));
 
     }
-
     public int maxSubArray(int[] nums) {
         if (nums.length == 0)
             return 0;
