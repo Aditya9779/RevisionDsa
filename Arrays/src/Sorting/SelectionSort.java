@@ -5,7 +5,6 @@ public class SelectionSort {
         int[] nums = {64, 25, 12, 22, 11};
         SelectionSort sorter = new SelectionSort();
         sorter.selectionSort(nums);
-
         for (int num : nums) {
             System.out.print(num + " ");
         }
