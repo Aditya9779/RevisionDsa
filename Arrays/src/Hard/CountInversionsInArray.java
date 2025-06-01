@@ -80,7 +80,7 @@ public class CountInversionsInArray {
         for (int k = 0; k < arrayList.size(); k++) {
             nums[k + low] = arrayList.get(k);
         }
-        return count;
+        return count+1;
 
     }
 }
