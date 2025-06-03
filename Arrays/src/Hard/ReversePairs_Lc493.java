@@ -3,12 +3,16 @@ package Hard;
 import java.util.ArrayList;
 
 public class ReversePairs_Lc493 {
+    public static void main(String[] args) {
+        System.out.println(reversePairs(new int[]{1,3,2,3,1}));
+    }
     static int reversePairs(int[] nums) {
         if (nums.length == 0) return 0;
         return callMerge(nums, 0, nums.length - 1);
     }
 
     private static int callMerge(int[] nums, int left, int right) {
+        if (left >= right) return 0;
         int mid = left + (right - left) / 2;
         int count = 0;
         count += callMerge(nums, left, mid);
