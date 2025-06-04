@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ReversePairs_Lc493 {
     public static void main(String[] args) {
-        System.out.println(reversePairs(new int[]{1,3,2,3,1}));
+        System.out.println(reversePairs(new int[]{1,3,2,3,3}));
     }
     static int reversePairs(int[] nums) {
         if (nums.length == 0) return 0;
