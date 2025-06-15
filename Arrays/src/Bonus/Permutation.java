@@ -1,6 +1,5 @@
 package Bonus;
 
-import java.util.Arrays;
 
 public class Permutation {
     public static void main(String[] args) {
