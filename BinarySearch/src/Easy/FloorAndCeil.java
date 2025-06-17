@@ -23,18 +23,19 @@ public class FloorAndCeil {
             int mid = start + (end - start) / 2;
 
             if (isFloor) {
-                if (nums[mid] <= x) {
+                if (nums[mid] < x) {
                     ans = nums[mid];
                     start = mid + 1;
                 } else {
                     end = mid - 1;
                 }
             } else {
-                if (nums[mid] >= x) {
+                if (nums[mid] <= x) {
+                    start = mid + 1;
+                } else {
                     ans = nums[mid];
                     end = mid - 1;
-                } else {
-                    start = mid + 1;
+
                 }
             }
         }
