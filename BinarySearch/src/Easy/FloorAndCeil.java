@@ -21,7 +21,9 @@ public class FloorAndCeil {
 
         while (start <= end) {
             int mid = start + (end - start) / 2;
-
+            if (nums[mid] == x) {
+                return x;
+            }
             if (isFloor) {
                 if (nums[mid] < x) {
                     ans = nums[mid];
@@ -30,12 +32,11 @@ public class FloorAndCeil {
                     end = mid - 1;
                 }
             } else {
-                if (nums[mid] <= x) {
-                    start = mid + 1;
-                } else {
+                if (nums[mid] > x) {
                     ans = nums[mid];
                     end = mid - 1;
-
+                } else {
+                    start = mid + 1;
                 }
             }
         }
