@@ -10,9 +10,8 @@ public class FindFirstAndLast_Lc34 {
     public int[] searchRange(int[] nums, int target) {
         if (nums.length == 0)
             return new int[] { -1, -1 };
-        int f = search(nums, target, true); //helper(nums, target, true);
-        int c = search(nums, target, false); //helper(nums, target, true);
-        //int c = helper(nums, target, false);
+        int f = search(nums, target, true);
+        int c = search(nums, target, false);
         return new int[] { f, c };
     }
 
