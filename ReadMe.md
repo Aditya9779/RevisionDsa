@@ -13,14 +13,14 @@ This project is part of my daily commitment to mastering DSA using Java 🚀
 
 ## ✅ Progress Tracker
 
-| Section | Topic | Completion |
-|--------|-------|------------|
-| ✅ A | Basics + Arrays | In Progress |
-| ⏳ B | Searching & Sorting | Not Started |
-| ⏳ C | Recursion & Backtracking | Not Started |
-| ⏳ D | Linked Lists | Not Started |
-| ⏳ ... | ... | ... |
-| 🔚 Z | Final 450 Practice Questions | Upcoming |
+| Section | Topic | Completion          |
+|--------|-------|---------------------|
+| ✅ A | Basics + Arrays | Completed           |
+| ⏳ B | Searching & Sorting | In Progress         |
+| ⏳ C | Recursion & Backtracking | Not Started         |
+| ⏳ D | Linked Lists | Not Started         |
+| ⏳ ... | ... | ...                 |
+| 🔚 Z | Final 450 Practice Questions | Upcoming            |
 
 ---
 
