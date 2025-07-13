@@ -18,7 +18,7 @@ public class SearchInSortedArray1_Lc33 {
                 //Left Half
                 if(nums[start]<=nums[mid]){
                     //Checking like the Target is in between the left and mid value
-                    //and if mid is greater then end end is minus-- Normal from BinarySearch
+                    //and if mid is greater than end is minus-- Normal from BinarySearch
                     //This (nums[start]<=target ) only addition condition
                     if(nums[start]<=target && nums[mid]>=target){
                         end=mid-1;
